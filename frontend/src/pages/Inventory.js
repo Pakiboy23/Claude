@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useQuery, useMutation, useQueryClient } from 'react-query';
-import { Scan, Plus, Search, Filter, Trash2, Edit } from 'lucide-react';
+import { Scan, Plus, Search, Filter, Trash2, Edit, Package } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { inventoryAPI, productAPI } from '../utils/api';
 import BarcodeScanner from '../components/BarcodeScanner';
